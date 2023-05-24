@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="images/icon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/showAd.js"></script>
+  <script src="js/subscribe.js"></script>
+  <script src="js/scrollToTop.js"></script>
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
+  <title>Эверест</title>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="">
+    <div class="header-items">
+      <div class="header-items header-top">
+        <ul class="header-contacts">
+          <li><img src="images/Vectors/geo.svg" alt=""></li>
+          <li>Казань</li>
+          <li><img src="images/Vectors/phone.svg" alt=""></li>
+          <li>+7 8552 44-84-09</li>
+        </ul>
+        <ul class="header-menu">
+          <li><a href="">Доставка</a></li>
+          <li><a href="">Оплата</a></li>
+          <li><a href="">Прайс-лист</a></li>
+          <li><a href="">Оптовикам</a></li>
+          <li><a href="">Вакансии</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+      </div> 
+      <div class="header-items header-bottom">
+        <button class="button-catalog" title="каталог">Каталог</button>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Поиск товаров " class="search-bar">
+          <button>Найти</button>
+        </div>
+
+        <ul class="header-data">
+            <li><img src="images/Vectors/person.svg" alt=""></li>
+            <li><img src="images/Vectors/compare.svg" alt=""></li>
+            <li><img src="images/Vectors/favourite.svg" alt=""></li>
+            <li><img src="images/Vectors/cart.svg" alt=""></li>
+            <li>0 &#8381;</li>
+        </ul>
+      </div> 
+    </div>
+  </header>
+
+  <main>
+    <div class="main-items">
+      <p class="katalog-text">Каталог</p>
+
+      <div id="advertisement" title="Реклама">
+        <img src="images/logo.svg" alt="">
+      </div>
+
+      <div class="data-grid">
+        <div>
+          <img src="images/Products/enamles.svg" alt="Эмали" title="Эмали">
+          <p class="data-grid-p">Эмали</p>
+          <div class="data-grid-elements">
+            <p class="data-grid data-grid-items">Алкидные эмали</p>
+            <p class="data-grid data-grid-items">Криловые эмали</p>
+            <p class="data-grid data-grid-items">Нитроэмали</p>
+            <p class="data-grid data-grid-items">Маслянные краски</p>
+            <p class="data-grid data-grid-items">Грунты ГФ и ГЭ</p>
+            <p class="data-grid data-grid-items">Эмали спецназначения</p>
+            <p class="data-grid data-grid-items">Растворители</p>
+            <p class="data-grid data-grid-items">Специальные грунты</p>
+        </div>
+        </div>
+        <div>
+          <img src="images/Products/paints.svg" alt="Краски" title="Краски">
+          <p class="data-grid-p">Краски</p>
+          <div class="data-grid-elements">
+            <p class="data-grid data-grid-items">Водно-дисперсионные краски</p>
+            <p class="data-grid data-grid-items">Колеровочные пасты</p>
+            <p class="data-grid data-grid-items">Для сауны</p>
+            <p class="data-grid data-grid-items">Лак ХВ</p>
+            <p class="data-grid data-grid-items">Морилки</p>
+            <p class="data-grid data-grid-items">Нитролаки</p>
+            <p class="data-grid data-grid-items">Пропитки</p>
+            <p class="data-grid data-grid-items">Прочее</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/Products/woodProtection.svg" alt="Защита для древесины" title="Защита для древесины">
+          <p class="data-grid-p">Защита для древесины</p>
+          <div class="data-grid-elements">
+            <p class="data-grid data-grid-items">Для дерева</p>
+            <p class="data-grid data-grid-items">Огне- биозащита, антисептики</p>
+            <p class="data-grid data-grid-items">Аэрозольные краски</p>
+            <p class="data-grid data-grid-items">Декоративные штукатурки</p>
+            <p class="data-grid data-grid-items">Колоранты</p>
+            <p class="data-grid data-grid-items">Шпатлевки готовые</p>
+            <p class="data-grid data-grid-items">Акриловые грунты</p>
+        </div>
+        </div>
+        <div>
+          <img src="images/Products/foams.svg" alt="Пены, Герметика, Клей" title="Пены, Герметика, Клей">
+          <p class="data-grid-p">Пены, Герметика, Клей</p>
+          <div class="data-grid-elements">
+              <p class="data-grid data-grid-items">Пены монтажные</p>
+              <p class="data-grid data-grid-items">Герметики</p>
+              <p class="data-grid data-grid-items">Мастики</p>
+              <p class="data-grid data-grid-items">Жидкие гвозди</p>
+              <p class="data-grid data-grid-items">ПВА</p>
+              <p class="data-grid data-grid-items">Контактный клей</p>
+              <p class="data-grid data-grid-items">Клей для обоев</p>
+              <p class="data-grid data-grid-items">Для напольных покрытий</p>
+              <p class="data-grid data-grid-items">Для потолочных и декоративных плит</p>
+              <p class="data-grid data-grid-items">Универсальные клея</p>
+              <p class="data-grid data-grid-items">Холодная сварка</p>
+              <p class="data-grid data-grid-items">Эпоксидные клея</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/Products/tools.svg" alt="Инстурменты" title="Инстурменты">
+          <p class="data-grid-p">Инстурменты</p>
+          <div class="data-grid-elements">
+            <p class="data-grid data-grid-items">Измерительные</p>
+            <p class="data-grid data-grid-items">Ленты</p>
+            <p class="data-grid data-grid-items">Малярный</p>
+            <p class="data-grid data-grid-items">Монтажно-крепежный</p>
+            <p class="data-grid data-grid-items">Пистолеты</p>
+            <p class="data-grid data-grid-items">Абразивные</p>
+            <p class="data-grid data-grid-items">Режущие</p>
+            <p class="data-grid data-grid-items">Средства защиты труда</p>
+            <p class="data-grid data-grid-items">Прочее</p>
+            <p class="data-grid data-grid-items">Столярно-слесарные</p>
+            <p class="data-grid data-grid-items">Штукатурные</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/Products/windowPackage.svg" alt="Окнонная комплектация" title="Окнонная комплектация">
+          <p class="data-grid-p">Окнонная комплектация</p>
+          <div class="data-grid-elements">
+            <p class="data-grid data-grid-items">Космофен</p>
+            <p class="data-grid data-grid-items">Откос оконный утепленный</p>
+            <p class="data-grid data-grid-items">Москитная группа</p>
+            <p class="data-grid data-grid-items">Панели ПВХ</p>
+            <p class="data-grid data-grid-items">Подкладки под стеклопакет</p>
+            <p class="data-grid data-grid-items">Прочее</p>
+            <p class="data-grid data-grid-items">Подоконник</p>
+            <p class="data-grid data-grid-items">Профили, нащельники</p>
+            <p class="data-grid data-grid-items">Псулы, ленты</p>
+            <p class="data-grid data-grid-items">Сэндвич-ПВХ</p>
+            <p class="data-grid data-grid-items">Уплотнители оконные</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/Products/generalConstructionMaterials.svg" alt="Общестроительные материалы" title="Общестроительные материалы">
+          <p class="data-grid-p">Общестроительные материалы</p>
+          <div class="data-grid-elements">
+            <p class="data-grid data-grid-items">Двери входные</p>
+            <p class="data-grid data-grid-items">Двери межкомнатные</p>
+            <p class="data-grid data-grid-items">Плинтуса, порожки,стремянки</p>
+            <p class="data-grid data-grid-items">Сухие смеси</p>
+            <p class="data-grid data-grid-items">Арматура</p>
+            <p class="data-grid data-grid-items">Сантехника</p>
+            <p class="data-grid data-grid-items">Теплоизоляция</p>
+            <p class="data-grid data-grid-items">Плинтуса потолочные, угол, плитка, фартук</p>
+            <p class="data-grid data-grid-items">Профили для гипсокартона, комплектующие</p>
+            <p class="data-grid data-grid-items">Электрика</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/Products/fasteners.svg" alt="Крепеж" title="Крепеж">
+          <p class="data-grid-p">Крепеж</p>
+          <div class="data-grid-elements">
+            <p class="data-grid data-grid-items">Анкерные болты</p>
+            <p class="data-grid data-grid-items">Гайки</p>
+            <p class="data-grid data-grid-items">Гвозди</p>
+            <p class="data-grid data-grid-items">Дюбельная техника</p>
+            <p class="data-grid data-grid-items">Саморезы и шурупы</p>
+            <p class="data-grid data-grid-items">Крепеж перфорированный</p>
+            <p class="data-grid data-grid-items">Прочее</p>
+            <p class="data-grid data-grid-items">Скобы строительн</p>
+            <p class="data-grid data-grid-items">Шпильки резьбовые</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/Products/housewares.svg" alt="Хозтовары" title="Хозтовары">
+          <p class="data-grid-p">Хозтовары</p>
+          <div class="data-grid-elements">
+            <p class="data-grid data-grid-items">Батарейки</p>
+            <p class="data-grid data-grid-items">Бытовая химия</p>
+            <p class="data-grid data-grid-items">Прочие хозтовары</p>
+            <p class="data-grid data-grid-items">Лопаты снеговые</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <img src="images/slides/slide1.png" alt="">
+        </div>
+        <div class="slide">
+          <img src="images/slides/slide2.png" alt="">
+        </div>
+        <div class="slide-buttons">
+          <button id="previous-Button"><img src="images/Vectors/arrowLeft.svg" alt=""></button>
+          <button id="next-Button"><img src="images/Vectors/arrowRight.svg" alt=""></button>
+        </div>
+        <script src="js/slider.js"></script>
+
+      </div> 
+      
+      <div class="news">
+        <p class="katalog-text">Новости</p>
+
+        <div class="data-grid-news">
+
+          <div>
+            <img src="images/newsPhotos/first.jpg" alt="Новость 1" title="Dulux Diamond Max Protect">
+            <div class="news-content">
+
+              <div class="news-info">
+                <ul>
+                  <li>04.04.2020</li>
+                  <li><img src="images/Vectors/view.svg" alt=""></li>
+                  <li>121</li>
+                </ul>
+                <div >
+                  <p>Dulux Diamond Max Protect</p>
+                </div>
+              </div>
+                <ul class="news-tags">
+                  <li># Акзонобел</li>
+                  <li># Интерьерные краски</li>
+                </ul>
+            </div>
+          </div>
+
+          <div>
+            <img src="images/newsPhotos/second.jpg" alt="Новость 2" title="Новинка! Быстросохнущий монтажный клей MAMUT">
+            <div class="news-content">
+              <div class="news-info">
+                <ul>
+                  <li>30.04.2022</li>
+                  <li><img src="images/Vectors/view.svg" alt=""></li>
+                  <li>568</li>
+                </ul>
+                <div >
+                  <p>Новинка! Быстросохнущий монтажный клей MAMUT</p>
+                </div>
+              </div>
+                <ul class="news-tags">
+                  <li># Bostik</li>
+                  <li># Клей</li>
+                </ul>
+            </div>
+          </div>
+
+          <div>
+            <img src="images/newsPhotos/third.jpg" alt="Новость 3" title="Сканер цвета Dulux — лидерам отрасли!">
+            <div class="news-content">
+              <div class="news-info">
+                <ul>
+                  <li>20.04.2022</li>
+                  <li><img src="images/Vectors/view.svg" alt=""></li>
+                  <li>1 089</li>
+                </ul>
+                <div >
+                  <p>Сканер цвета Dulux — лидерам отрасли!</p>
+                </div>
+              </div>
+                <ul class="news-tags">
+                  <li># Акзонобель</li>
+                  <li># Dulux</li>
+                </ul>
+            </div>
+          </div>
+
+          <div>
+            <img src="images/newsPhotos/fourth.jpg" alt="Новость 4" title="Негорючие системы окраски КМ0 - Dulux Diamond Max Protect">
+            <div class="news-content">
+              <div class="news-info">
+                <ul>
+                  <li>20.04.2022</li>
+                  <li><img src="images/Vectors/view.svg" alt=""></li>
+                  <li>1 089</li>
+                </ul>
+                <div >
+                  <p>Негорючие системы окраски КМ0 - Dulux Diamond Max Protect</p>
+                </div>
+              </div>
+                <ul class="news-tags">
+                  <li># Акция</li>
+                  <li># Сайвер</li>
+                </ul>
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="more-news">
+          <img src="images/Vectors/newsBullet.svg" alt="newsBullet">
+          <p>Все новости</p>
+          <img src="images/Vectors/arrow-right.svg" alt="arrow-right" title="Подробнее">
+        </div>
+        
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-items">
+      <div class="footer-first-floor">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="Лого" title="Эверест">
+        </div>
+  <div class="footer-menu">
+    <div>
+      <ul class="footer-menu">
+        <li><a href="">Каталог</a></li>
+        <li><a href="">Доставка</a></li>
+        <li><a href="">Оплата</a></li>
+        <li><a href="">Прайс-лист</a></li>
+        <li><a href="">Оптовикам</a></li>
+        <li><a href="">Вакансии</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+    </div>
+      <p class="footer-about">
+          ООО «ЭПК» <br>
+          420054, Республика Татарстан <br>
+          г. Казань, ул. Техническая, д. 10, к. 2
+      </p>
+  </div>
+
+  <div class="subscribe-input">
+    <div class="footer-button-input">
+      <p>Подпишитесь на рассылку новостей, акций,<br> спецпредложений</p>
+      <input id ="email-input" type="text" placeholder="email">
+      <button id = "subscribe-button">Подписаться</button>
+    </div>
+      <div class="footer-contact-info">
+        <ul >
+          <li>+7 8552 44-84-09</li>
+          <li>sale@everest-rt.ru</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+      <div class="footer-third-floor">
+        <hr class="footer-hr">
+        <p> ПАО Сбербанк, Расч/счет 40702810162000033064, Корр/счет 30101810600000000603, БИК 049205603, ОГРН 1121674004143  </p>
+        <p class="footer-policy">
+        Указанная стоимость товаров и условия их приобретения действительны по состоянию на текущую дату. <br> <br>
+        Продолжая работу с сайтом, вы даете согласие на использование сайтом cookies и обработку персональных данных в целях функционирования сайта, проведения ретаргетинга, статистических исследований, улучшения сервиса и предоставления релевантной рекламной информации на основе ваших предпочтений и интересов.
+        </p>
+        <div class="footer-term-of-use">
+          <ul>
+            <li>Персональные данные</li>
+            <li>Условия пользовательского соглашения</li>
+            <li>Условия продажи</li>
+          </ul>
+        <div class="footer-dev-by">
+          <p>Разработка сайта</p> 
+          <img src="images/designedBy.png" alt="designedby" title="Разработчики сайта">    
+        </div>
+        <button id="scrollBtn"><img src="images/Vectors/arrowUp.svg" alt="top" title="Вверх"></button>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</body>
+</html>
